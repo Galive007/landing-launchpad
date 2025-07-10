@@ -1,0 +1,177 @@
+/* fonts styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* universal Css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common style */
+.body-width{
+    max-width: 1140px;
+    margin: 0 auto;
+    /* border: 1px solid rebeccapurple; */
+    
+}
+.body-bg-color{
+    background-color: #f5f8ff;;
+}
+section{
+    margin-top: 110px;
+}
+.primary-color{
+    color: #4E47FF;
+}
+.primary-bg{
+    background-color: #4E47FF;
+}
+.secondary-color{
+    color: #252432;
+}
+.secondary50{
+    color: rgba(37, 36, 50, 0.50);
+}
+
+/* header section */
+header{
+    /* background-image: url('../Assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-position: top top;
+    background-size: cover; */
+    
+    background: linear-gradient(0deg, rgba(78, 71, 255, 0.01) 0%, rgba(78, 71, 255, 0.01) 100%), url('../Assets/Hero-bg.png') lightgray 50% / cover no-repeat;
+    
+}
+/* nav styles */
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+nav li a{
+    text-decoration: none;
+}
+nav li a h2{
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 150%;
+}
+nav li a button{
+    color: #fff;
+    border: none;
+    padding: 12px 36px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+}
+/* banner section */
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 905px;
+    padding: 200px 0;
+}
+.banner-tittle{
+    text-align: center;
+    font-size: 65px;
+    font-weight: 700;
+}
+.banner-btn{
+    margin-top: 35px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+}
+/* header section end */
+/* inaction section */
+.inaction{
+    display: flex;
+    gap: 220px;
+    align-items: center;
+    justify-content: center;
+}
+.section-tittle{
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.section-description{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 16px 0;
+}
+.section-btn{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    border-radius: 10px;
+    padding: 12px 36px;
+    font-weight: 700;
+    line-height: 150%;
+    border: none;
+}
+.section-img img{
+    border-radius: 48px;
+    background: lightgray -23.639px -26.707px / 187.12% 172.283% no-repeat;
+    aspect-ratio: 403/328;
+}
+/* section end */
+/* productive-user section */
+.productive-user{
+    padding: 50px 80px;
+    border-radius: 24px;
+    background: rgba(78, 71, 255, 0.10);
+}
+.productive-user h3{
+    text-align: center;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.productive-informations{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.number{
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.productivity{
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
