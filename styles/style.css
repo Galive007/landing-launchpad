@@ -44,7 +44,16 @@ section{
 .secondary50{
     color: rgba(37, 36, 50, 0.50);
 }
-
+/* card common styles */
+.card-color1{
+    color: #1E1E1E;
+}
+.card-color2{
+    color: #757575;
+}
+.card-color3{
+    color: #B3B3B3;
+}
 /* header section */
 header{
     /* background-image: url('../Assets/Hero-bg.png');
@@ -175,3 +184,58 @@ nav li a button{
     font-weight: 400;
     line-height: normal;
 }
+/* inaction section end */
+/* user-says section */
+.user-says h3{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.user-cards{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.card{
+    border-radius: 14px;
+    padding: 24px;
+    background-color: #FFF;
+}
+.card-tittle{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%; /* 28.8px */
+    letter-spacing: -0.48px;
+    margin: 24px 0 8px;
+}
+.card-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 24px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.user-img{
+    border-radius: 50%;
+    background: lightgray 50% / cover no-repeat;
+}
+.user-tittle{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+}
+.date{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+}
+/* user-says section end */
+/* focus-better section */
+.focus-better{
+    background-color: #FFF;
+    padding: 70px 150px;
+}
+/* focus-better section end */
