@@ -323,6 +323,7 @@ footer{
     justify-content: space-around;
     align-items: center;
     list-style: none;
+    margin-top: 10px;
 }
 .footer-menu ul li a{
     text-decoration: none;
