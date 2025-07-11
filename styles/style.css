@@ -245,7 +245,8 @@ nav li a button{
 .focus-content{
     text-align: center;
 }
-.focus-btn{
+.focus-btn button{
+    text-align: center;
     margin: 20px auto 0;
 }
 .focus-tittle{
@@ -255,7 +256,7 @@ nav li a button{
     line-height: 120%;
 }
 .focus-description{
-    margin: 20px 0 0;
+    margin: 20px 0 0 !important;
     color: rgba(0, 0, 0, 0.50);
 }
 .focus-img img{
