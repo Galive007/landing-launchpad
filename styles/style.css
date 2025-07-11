@@ -245,6 +245,9 @@ nav li a button{
 .focus-content{
     text-align: center;
 }
+.focus-btn{
+    margin: 20px auto 0;
+}
 .focus-tittle{
     font-size: 50px;
     font-style: normal;
