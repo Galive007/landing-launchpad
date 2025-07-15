@@ -89,6 +89,12 @@ nav li a button{
     font-weight: 700;
     line-height: 150%;
 }
+nav li a button:hover{
+    cursor: pointer;
+    color: #4E47FF;
+    background-color: #B3B3B3;
+    transition: 0.5s;
+}
 /* banner section */
 .banner{
     display: flex;
@@ -113,6 +119,12 @@ nav li a button{
     padding: 12px 36px;
     border-radius: 10px;
     border: none;
+}
+.banner-btn:hover{
+    cursor: pointer;
+    color: #4E47FF;
+    background-color: #B3B3B3;
+    transition: 0.5s;
 }
 /* header section end */
 /* inaction section */
@@ -145,6 +157,12 @@ nav li a button{
     font-weight: 700;
     line-height: 150%;
     border: none;
+}
+.section-btn:hover{
+    cursor: pointer;
+    color: #4E47FF;
+    background-color: #B3B3B3;
+    transition: 0.5s;
 }
 .section-img img{
     border-radius: 48px;
